@@ -19,14 +19,14 @@ Resources:
             Threshold: 99
           Subscribers:
             - SubscriptionType: EMAIL
-              Address: <youremail>
+              Address: mike+budget@cmdlineonly.com
         - Notification:
             NotificationType: ACTUAL
             ComparisonOperator: GREATER_THAN
             Threshold: 80
           Subscribers:
           - SubscriptionType: EMAIL
-            Address: <youremail>
+            Address: mike+budget@cmdlineonly.com
 Outputs:
   BudgetId:
     Value: !Ref BudgetBase
